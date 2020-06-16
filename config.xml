@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/2.3" id="jhoni" version="2.3.1">
-  <name>Presensi-V3</name>
-  <description>Presensi-V3</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/3.3" id="jhoni" version="3.3.1">
+  <name>Pres</name>
+  <description>Pres</description>
   <author href="http://todak-source.com" email="jhonipratama13@gmail.com.com">Jhoni Eka Putra</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
