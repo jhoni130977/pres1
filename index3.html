@@ -1,0 +1,21 @@
+<form id="form-upload" method="post" enctype="multipart/form-data">
+    <input id="fileupload" name="fileupload" type="file" onclick="javascript:prepareForPicker();"/>
+</form>
+<script type="text/javascript">
+function getAndroidVersion() {
+    var ua = navigator.userAgent; 
+    var match = ua.match(/Android\s([0-9\.]*)/);
+    return match ? match[1] : false;
+};
+function prepareForPicker(){
+    if(getAndroidVersion().indexOf("4.4") != -1){
+        window.jsi.showPicker();
+        return false;
+    }
+}
+
+function CheckImage(name)
+{
+//Check to see if user wants to save I used some ajax to save the file if necesarry
+}
+</script>
